@@ -1,0 +1,434 @@
+// Question 1
+
+class Name
+{
+	public static void main (String [] args)
+	{
+		System.out.println("Hello");
+		System.out.println("Abhishek More");
+    }
+}
+
+//Question 2
+
+class Add
+{
+ public static void main (String [] args)
+ {
+   int i=74;
+   int j = 36;
+   int k = i+j;
+   System.out.println("the addition of two numbers is:"+k);   
+ }
+ }
+ 
+ //Question 3
+ 
+ import java.util.Scanner;
+ class Divide
+ {
+ public static void main (String [] args)
+ {
+   Scanner sc=new Scanner (System.in);
+   System.out.println("Enter two numbers");
+   int i= sc.nextInt();
+   int j = sc.nextInt();
+   int k = i/j;
+   System.out.println("the division of these number is:"+k);
+   
+ }
+ }
+ 
+ //Question 4
+ 
+ class Solve
+{
+  public static void main(String [] args)
+  {   
+    int i = -5+8*6;
+	int k = (55+9)%9;
+	int j = 20+ -3*5/8;
+	int l = 5+15/3*2-8%3;
+	System.out.println(i);
+	System.out.println(k);
+	System.out.println(j);
+	System.out.println(l);
+	
+  }
+}
+
+//Question 5
+
+import java.util.Scanner;
+ class Product
+ {
+	 public static void main (String [] args)
+  {
+    Scanner sc = new Scanner(System.in);
+	System.out.println("Enter Two Numbers");
+	int i = sc.nextInt();
+	int j = sc.nextInt();
+	int k = i*j;
+	System.out.println(i+"*"+j+ "=" +k);
+  }
+  }
+  
+  
+  //Question 6
+  
+  import java.util.Scanner;
+ class Six
+ {
+	 public static void main (String [] args)
+  {
+    Scanner sc = new Scanner(System.in);
+	System.out.println("Input first number:");
+	int i = sc.nextInt();
+	System.out.println("Input second number:");
+	int j = sc.nextInt();
+	int k = i+j;
+	int l = i-j;
+	int m = i*j;
+	int n = i/j;
+	int p = i%j;
+	System.out.println(i+" + "+j+ " = " +k);
+	System.out.println(i+" - "+j+ " = " +l);
+	System.out.println(i+" * "+j+ " = " +m);
+	System.out.println(i+" / "+j+ " = " +n);
+	System.out.println(i+" % "+j+ " = " +p);
+  }
+  }
+  
+  //Question 7
+  
+  import java.util.Scanner;
+class Seven
+{
+ public static void main (String [] args)
+ { 
+   Scanner sc= new Scanner (System.in);
+   System.out.println("Input a number");
+   int m;
+   int i = sc.nextInt();
+   for (int a=1;a<=10;a++)
+     { 
+	   m=i*a;
+	   
+	   System.out.println(i+"*"+a+"="+m);
+	   }
+       
+ }
+ }
+ 
+ //Question 8
+ 
+class Eight
+{
+public static void main (String [] args)
+{
+   for (int i=1;i<=4;i++)
+     {
+	   for(int j=1; j>=i;j++)
+	   {
+	     System.out.println("_");
+		 }
+		 for (int k=1; k<=1;k++)
+		 {
+			 System.out.println("*");
+		 }
+		  System.out.println();
+	 }
+}
+}
+
+//Question 9
+
+import java.math.MathContext;
+class Nine
+{
+public static void main (String [] args)
+{
+  double j,i,s;
+  j=25.5*3.5-3.5*3.5;
+  i=40.5-4.5;
+  s= j/i;
+
+
+  System.out.println(s);
+  
+}
+}
+
+
+//Question 10
+
+{
+	double a,b,c;
+	
+ a = 4.0;
+b = (1-(1.0/3)+(1.0/5)-(1.0/7)+(1.0/9)-(1.0/11));
+c= a*b;
+ System.out.print((long) a+"");
+ }
+ }
+
+
+//Question 11
+
+import java.util.Scanner;
+class Eleven
+{
+public static void main(String [] args)
+{
+  Scanner sc=new Scanner(System.in);
+  double r, perimeter,area;
+  
+  r = sc.nextDouble();
+  
+  perimeter = 2 * 3.14 * r;
+  area = 3.14 * r * r;
+  System.out.println("Perimeter is = "+perimeter);
+  System.out.println("Area is ="+area);
+  }
+  }
+  
+
+//Question 12
+
+import java.util.Scanner;
+class Twelve
+{
+public static void main(String [] args)
+{
+Scanner sc= new Scanner(System.in);
+int a,b,c,avg;
+System.out.println("enter three numbers");
+a = sc.nextInt();
+b = sc.nextInt();
+c = sc.nextInt();
+avg= (a+b+c)/2;
+System.out.println(avg);
+}
+}
+
+
+//Question 13
+
+import java.util.Scanner;
+class Thirteen
+{
+public static void main(String [] args)
+{
+  Scanner sc=new Scanner(System.in);
+double w, h, area, perimeter;
+System.out.println("Enter width and height ");
+  w= sc.nextDouble();
+  h= sc.nextDouble();
+  area = w*h;
+  perimeter = 2*(w+h);
+  System.out.println("Area is"+w+"*"+h+"="+area);
+  System.out.println("Perimeter is 2 * ("+w+"+"+h+")="+perimeter);
+}
+}
+
+
+//Question 14
+
+class Fourteen
+{
+ public static void main(String [] args)
+ {
+	 for(int i=1;i<16;i++)
+	 {
+		 if(i<=6)
+		 {
+			 if(i%2==1)
+			 {
+				 System.out.println("* * * * * * = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =");
+			 }
+			 else
+			 {
+				 System.out.println(" * * * * *  = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =");
+		     }
+		 }
+		else 
+		{
+			System.out.println("= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =");
+        }
+
+	 }
+ }
+}
+
+
+
+//Question 15
+
+import java.util.Scanner;
+class Swap
+{
+public static void main(String [] args)
+{
+Scanner sc=new Scanner(System.in);
+System.out.println("enter 2 interger nos:");
+int i=sc.nextInt();
+int j=sc.nextInt();
+int temp;
+System.out.println("i:"+i);
+System.out.println("j:"+j);
+temp=i;
+i=j;
+j=temp;
+System.out.println("after swapping");
+System.out.println("i:"+i);
+System.out.println("i:"+j);
+}
+}
+
+//Question 16
+
+class Sixteen
+{
+public static void main (String [] args)
+{
+  System.out.println(" +\"\"\"\"\"+");
+  System.out.println("[ |o o| ]");
+  System.out.println("  | ^ |");
+  System.out.println("  |'_'|");
+  System.out.println(" +-----+");
+}
+}
+
+
+//Question 17
+
+import java.util.Scanner;
+public class Seventeen {
+   public static void main(String[] args)
+   {	 
+	long b1, b2;
+	int i = 0, carry = 0;
+
+	int[] sum = new int[10];
+
+	Scanner scanner = new Scanner(System.in);
+	System.out.print("Enter first binary number: ");
+	b1 = scanner.nextLong();
+	System.out.print("Enter second binary number: ");
+	b2 = scanner.nextLong();
+	scanner.close();
+	while (b1 != 0 || b2 != 0) 
+	{
+		sum[i++] = (int)((b1 % 10 + b2 % 10 + carry) % 2);
+		carry = (int)((b1 % 10 + b2 % 10 + carry) / 2);
+		b1 = b1 / 10;
+		b2 = b2 / 10;
+	}
+	if (carry != 0) {
+		sum[i++] = carry;
+	}
+	--i;
+	System.out.print("Output: ");
+	while (i >= 0) {
+		System.out.print(sum[i--]);
+	}
+	System.out.print("\n");  
+   }
+}
+
+
+//Question 18
+
+import java.util.Scanner;
+class Eighteen {
+ public static void main(String[] args)
+ {
+  long binary1, binary2, multiply = 0;
+  int digit, factor = 1;
+  Scanner in = new Scanner(System.in);
+  System.out.print("Input the first binary number: ");
+  binary1 = in.nextLong();
+  System.out.print("Input the second binary number: ");
+  binary2 = in.nextLong();
+  while (binary2 != 0)
+  {
+   digit = (int)(binary2 % 10);
+   if (digit == 1) 
+   {
+    binary1 = binary1 * factor;
+    multiply = binaryproduct((int) binary1, (int) multiply);
+   } 
+   else
+   {
+    binary1 = binary1 * factor;
+   }
+   binary2 = binary2 / 10;
+   factor = 10;
+  }
+  System.out.print("Product of two binary numbers: " + multiply+"\n");
+ }
+ static int binaryproduct(int binary1, int binary2) 
+ {
+  int i = 0, remainder = 0;
+  int[] sum = new int[20];
+  int binary_prod_result = 0;
+
+  while (binary1 != 0 || binary2 != 0) 
+  {
+   sum[i++] = (binary1 % 10 + binary2 % 10 + remainder) % 2;
+   remainder = (binary1 % 10 + binary2 % 10 + remainder) / 2;
+   binary1 = binary1 / 10;
+   binary2 = binary2 / 10;
+  }
+  if (remainder != 0)
+  {
+   sum[i++] = remainder;
+  }
+  --i;
+  while (i >= 0) 
+  {
+   binary_prod_result = binary_prod_result * 10 + sum[i--];
+  }
+  return binary_prod_result;
+ }
+ }
+
+
+// Question 19
+  
+class Nineteen
+{
+public static void main(String arg[])	
+{	
+ 
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter a decimal number");
+    int n=sc.nextInt();
+    int  bin[]=new int[100];
+    int i = 0;
+    while(n > 0)
+    {
+    bin[i++] = n%2;
+       n = n/2;
+    }
+   System.out.print("Binary number is : ");
+    for(int j = i-1;j >= 0;j--)
+   {
+       System.out.print(bin[j]);
+   }
+}
+}
+
+//Question 22
+
+class TwentyTwo 
+{
+  public static void main(String[] args) {
+ 
+    String binary = "01011011";
+    
+    int decimal = Integer.parseInt(binary, 2);
+    System.out.println(binary + " in binary = " + decimal + " in decimal.");
+  }
+}
+ 
