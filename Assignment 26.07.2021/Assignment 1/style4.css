@@ -1,0 +1,87 @@
+body{
+    background: rgb(209, 242, 255);
+}
+.container{
+    height: 125vh;
+    width: 95vw;
+    border: 3px solid lightgreen;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#Photo{
+    height: 5rem;
+    width: 90px;
+}
+
+.b1{
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.b10{
+    background: whitesmoke;
+    height: 5rem;
+    width: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.space{
+   height: 1rem;
+   background: whitesmoke;
+}
+
+.box{
+    background: whitesmoke;
+    height: 10rem;
+}
+.b7{
+    height: 5rem;
+    background: lightgray;
+    width: 95px;
+}
+.b8{
+    height: 5rem;
+    background: whitesmoke;
+    width: 100%;
+    justify-self: center;
+}
+
+h1{
+   text-align: center;
+}
+
+.b9{
+    height: 1.5rem;
+    width: 8rem;
+    background: lightgray;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+h4{
+    padding:2px;
+}
+
+p{
+    margin-left: 20px ;
+    font-size: small;
+}
+
+a:hover{
+    color: blue;
+}
+
+.b11{
+    height: 1.5rem;
+    width: 12rem;
+    background: lightgray;
+    border-radius: 5px;
+    margin-left: 5px;
+}
